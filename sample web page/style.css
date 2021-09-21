@@ -1,0 +1,37 @@
+.toparea {
+    background: black;
+    height: 30px;
+    width: 100%;
+}
+
+.back {
+    background-color: red;
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.header {
+    height: 94px;
+    background-color: white;
+}
+
+.reliance {
+    height: 88px;
+    width: 167px
+}
+
+.menu {
+    float: right;
+    margin-left: 5px;
+}
+
+li {
+    display: inline;
+    margin-left: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
