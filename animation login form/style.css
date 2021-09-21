@@ -1,0 +1,50 @@
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* perspective: 500px; */
+        /* transform-style: preserve-3d; */
+        height: 100vh;
+    }
+    
+    .main .form {
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        border-radius: 100px;
+        background-color: blue;
+        transform-style: preserve-3d;
+        animation: animate 3s linear infinite alternate;
+        transition-duration: .10s;
+        perspective: 100px;
+    }
+    
+    .main .form:hover {
+        box-sizing: border-box;
+        animation: after 3s linear;
+        height: 450px;
+        width: 500px;
+        box-shadow: 0 0 15px 0 black;
+        border-radius: 10px;
+    }
+    
+    .main .form:hover .content {
+        border: none;
+    }
+    /* @keyframes animate {
+        from {
+            transform: rotateX(0deg);
+        }
+        to {
+            transform: rotateX(80deg);
+        }
+    } */
+    
+    @keyframes after {
+        from {
+            transform: rotatex(360deg);
+        }
+        to {
+            transform: rotatex(odedg);
+        }
+    }
